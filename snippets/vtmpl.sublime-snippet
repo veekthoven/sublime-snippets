@@ -1,0 +1,21 @@
+<!-- Create a vue template boilerplate -->
+<snippet>
+	<content><![CDATA[
+<template>
+  <div>${1}</div>
+</template>
+
+<script>
+export default {
+	${2:data() {
+		return {\}
+	\},}
+	${3:methods:{\},}
+	${4:computed:{\}}
+}
+</script>
+]]></content>
+	<tabTrigger>vtmpl</tabTrigger>
+	<scope>text.html.vue</scope>
+	<description>Creates a Vue template</description>
+</snippet>
